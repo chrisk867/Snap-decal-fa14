@@ -7534,14 +7534,14 @@ TextMorph.prototype.init = function (
     this.currentlySelecting = false;
     this.startMark = 0;
     this.endMark = 0;
-    this.markedTextColor = new Color(255, 255, 255);
-    this.markedBackgoundColor = new Color(60, 60, 120);
+    this.markedTextColor = new Color(25, 120, 255);
+    this.markedBackgoundColor = new Color(255, 70, 255);
 
     // initialize inherited properties:
     TextMorph.uber.init.call(this);
 
     // override inherited properites:
-    this.color = new Color(0, 0, 0);
+    this.color = new Color(25, 0, 255);
     this.noticesTransparentClick = true;
     this.drawNew();
 };
